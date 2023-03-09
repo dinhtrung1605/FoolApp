@@ -20,6 +20,19 @@
         android:hint="pass"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="@color/teal_200"/>
+
+    <Button
+        android:id="@+id/Sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignIn"
+        android:backgroundTint="@color/teal_200"/>
+
 
 
 </LinearLayout>
