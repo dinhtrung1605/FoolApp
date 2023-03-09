@@ -7,17 +7,20 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:gravity="center"
+    android:layout_margin="16dp"
     >
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:hint="user"
+        android:background="@drawable/khung_login"
         />
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:hint="pass"
+        android:background="@drawable/khung_login"
         />
 
     <Button
