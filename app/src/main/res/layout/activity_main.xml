@@ -9,35 +9,52 @@
     android:gravity="center"
     android:layout_margin="16dp"
     >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="ĐĂNG NHẬP"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_marginBottom="40dp"
+        />
 
     <EditText
         android:id="@+id/txtUser"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:paddingLeft="10dp"
         android:hint="user"
         android:background="@drawable/khung_login"
+
         />
     <EditText
         android:id="@+id/txtPass"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:paddingLeft="10dp"
         android:hint="pass"
         android:background="@drawable/khung_login"
+        android:layout_marginTop="10dp"
         />
+
+
 
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:backgroundTint="@color/teal_200"/>
+        android:backgroundTint="#4CAF50"
+        android:layout_marginTop="10dp"/>
 
     <Button
         android:id="@+id/Sign"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SignIn"
-        android:backgroundTint="@color/teal_200"/>
+        android:backgroundTint="#8BC34A"
+        />
 
 
 
