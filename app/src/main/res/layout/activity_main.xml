@@ -11,12 +11,14 @@
     >
 
     <EditText
+        android:id="@+id/txtUser"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="user"
         android:background="@drawable/khung_login"
         />
     <EditText
+        android:id="@+id/txtPass"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="pass"
@@ -24,6 +26,7 @@
         />
 
     <Button
+        android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
